@@ -1,0 +1,237 @@
+/* Menu */
+#menu__toggle {
+  opacity: 0;
+}
+  .menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  height: 26px;
+  z-index: 1;
+  width: 26px;
+}
+.menu__btn > span::before,
+.menu__btn > span,
+.menu__btn > span::after {
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #616161;
+}
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+  /* контейнер меню */
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+}
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    color: #333;
+    padding: 12px 24px;
+    text-decoration: black;
+}
+  .menu__item:hover {
+    background-color: #CFD8DC;
+}
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+/* 
+#38E54D green
+#9CFF2E green-light
+#2192FF blue 
+#FDFF00 yellow
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+header { /* шапка на фоне главного экрана */
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #38E54D;
+}
+
+.container{
+  padding: 15px 50px;
+}
+.header_in{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_block{
+  color: #2192FF;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 5px;
+  padding-top: 30px;
+  padding-left: 150px;
+  transition: 0.5s;
+}
+.menu_block:hover{
+  color: #0c4479;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-top: 11px;
+  margin-left: 50px;
+  transition: 0.2s;
+}
+.logo:hover{
+  transform: scale(1.3);
+}
+
+.slogan{
+  font-size: 80px;
+  padding-top: 16px;
+  padding-left: 250px;
+  color: #2192FF;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* main */
+
+main{
+  width: 100%;
+  height: 100vh;
+  padding-top: 30vh;
+}
+
+.question_1{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.hl{
+  margin-left: 70px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.answer_1{
+  margin-left: 150px;
+  font-size: 19px;
+}
+.quote{
+  font-weight: 600;
+}
+.hl_picture{
+  margin-left: 60%;
+  margin-top: -200px;
+  width: 596px;
+  height: 350px;
+  transition: 0.5s;
+}
+.hl_picture:hover{
+  transform: rotate(360deg);
+}
+
+
+
+/* footer */
+
+footer{
+  width: 100%;
+  height: 20%;
+  background-color: #1d1b1b;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.footerLinks{
+  display: flex;
+}
+
+.footerCol{
+  width:calc( ( 100% - 40px ) / 3 );
+  margin: 30px 20px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts{
+  padding-left: 1515%;
+  font-size: 30px;
+}
+
+.a_1{
+  text-decoration: none;
+  color: #2dda3c;
+  font-size: 25px;
+  padding-top: 55px;
+}
+
+.img_cts{
+  transition: 0.15s;
+}
+
+.img_cts:hover{
+  transform: scale(1.5);
+}
+
+.footerCopyright{
+  background-color: #2192FF;
+}
+
+.copyright{
+  color: black;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.cntsBW{
+  padding-left: 1585%;
+}
