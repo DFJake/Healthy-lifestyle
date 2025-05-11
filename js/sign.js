@@ -23,6 +23,7 @@ function handleClickLogin(){
 
       } else {
         alert("Неверный пароль!");
+        document.getElementById("pass").value="";
       };
 
     } else {
@@ -41,11 +42,11 @@ function handleClickSignin(){
     guestPass = document.getElementById("pass").value;
 
     if (guestList.includes(guestName) === false) {
-        guestList.push(document.getElementById("username").value);
-        guestPassList.push(document.getElementById("pass").value);
-        alert(document.getElementById("username").value + " успешно зарегистрировался!")
+        guestList.push(guestName);
+        guestPassList.push(guestPass);
+        alert(guestName + " успешно зарегистрировался!")
     } else {
-      alert("Пользователь с таким именем уже существует.");
+      alert("Пользователь с таким именем уже занят.");
     }   
 
 }

@@ -20,6 +20,7 @@ document.getElementById("calc-bel").addEventListener("click", handleClickCalcbel
 function handleClickCalcbel(){
   var v_weight_bel = document.getElementById("weight-bel").value;
   document.getElementById("labcalc-bel").innerHTML = (v_weight_bel * 0.8).toFixed(1) + " г/д";
+  
 }
 
 
