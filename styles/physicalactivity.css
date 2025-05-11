@@ -108,12 +108,13 @@ header { /* шапка на фоне главного экрана */
     text-decoration: none;
     font-size: 20px;
     margin: 0 5px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 100px;
-    transition: 0.5s;
-}   
+    transition: 0.1s;
+}
 .menu_block:hover{
-    color: #0c4479;
+    background-color: #2192FF;
+    color: #38E54D;
 }
 
 .logo{
@@ -140,11 +141,26 @@ header { /* шапка на фоне главного экрана */
 /* main */
 
 main{
-    width: 100%;
-    height: 220vh;
+    width: 101%;
+    height: 270vh;
+    margin-left: -10px;
+    background-size: cover;
     padding-top: 30vh;
-    background-image: url("images/hepic.jpeg");
+    font-family: 'Montserrat', sans-serif;
 }
+
+.themeButton{
+    color: #2192FF;
+    border-radius: 0;
+    margin: 0 10px;
+    margin-top: 30px;
+    margin-left: 1700px;
+    width: 90px;
+    height: 20px;
+    border: 0;
+    outline: none;
+    background-color: #22356F;
+}  
 
 .question_1{
     font-size: 20px;
@@ -152,12 +168,15 @@ main{
 }
 .answer_1{
     margin-left: 150px;
-    font-size: 19px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454141;
 }
 .pa{
     margin-left: 70px;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 800;
+    color: #242323;
 }
 
 .question_2{
@@ -169,8 +188,9 @@ main{
 .we{
     margin-left: 370px;
     padding-top: 105px;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
+    color: #242323;
 }
 .mainTxt{
     margin-left: 500px;
@@ -179,12 +199,14 @@ main{
 .exersizes{
     margin-left: 500px;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454141;
 }
 
 .phis_activ_pic{
     width: 800px;
     height: 400px;
-    margin-top: -200px;
+    margin-top: -100px;
     margin-left: 1000px;
     transition: 0.5s;
 }
@@ -210,11 +232,14 @@ main{
     margin-left: 370px;
     padding-top: 105px;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 800;
+    color: #242323;
 }
 .answer_3{
     margin-left: 280px;
-    font-size: 19px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454141;
 }
 .quote1{
     font-weight: 600;
@@ -231,8 +256,9 @@ main{
 /* footer */
 
 footer{
-    width: 100%;
+    width: 101%;
     height: 20%;
+    margin-left: -10px;
     background-color: #1d1b1b;
     text-decoration: none;
     font-family: 'Source Code Pro', monospace;
@@ -289,3 +315,494 @@ footer{
 .cntsBW{
     padding-left: 1585%;
 }
+
+
+
+
+
+    /* light theme */
+
+    .lightTheme body{
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+    }
+    .lightTheme header { /* шапка на фоне главного экрана */
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background-color: #38E54D;
+    }
+    
+    .lightTheme .container{
+        padding: 15px 50px;
+    }
+    .lightTheme .header_in{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .lightTheme .menu_block{
+        color: #2192FF;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 5px;
+        margin-top: 50px;
+        margin-left: 100px;
+        transition: 0.1s;
+    }
+    .lightTheme .menu_block:hover{
+        background-color: #2192FF;
+        color: #38E54D;
+    }
+    
+    .lightTheme .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 11px;
+        margin-left: 50px;
+        transition: 0.2s;
+    }
+    .lightTheme .logo:hover{
+        transform: scale(1.3);
+    }
+    
+    .lightTheme .slogan{
+        font-size: 80px;
+        padding-top: 16px;
+        padding-left: 250px;
+        color: #2192FF;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    
+    /* main */
+    
+    .lightTheme main{
+        width: 101%;
+        height: 270vh;
+        margin-left: -10px;
+        background-size: cover;
+        padding-top: 30vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .lightTheme .themeButton{
+        color: #2192FF;
+        border-radius: 0;
+        margin: 0 10px;
+        margin-top: 30px;
+        margin-left: 1700px;
+        width: 90px;
+        height: 20px;
+        border: 0;
+        outline: none;
+        background-color: #22356F;
+    }  
+    
+    .lightTheme .question_1{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .lightTheme .answer_1{
+        margin-left: 150px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #454141;
+    }
+    .lightTheme .pa{
+        margin-left: 70px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #242323;
+    }
+    
+    .lightTheme .question_2{
+        margin-top: 200px;
+        padding-left: 500px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .lightTheme .we{
+        margin-left: 370px;
+        padding-top: 105px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #242323;
+    }
+    .lightTheme .mainTxt{
+        margin-left: 500px;
+        font-size: 19px;
+    }
+    .lightTheme .exersizes{
+        margin-left: 500px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #454141;
+    }
+    
+    .lightTheme .phis_activ_pic{
+        width: 800px;
+        height: 400px;
+        margin-top: -100px;
+        margin-left: 1000px;
+        transition: 0.5s;
+    }
+    .lightTheme .phis_activ_pic:hover{
+        transform: scale(1.1);
+    }
+    
+    .lightTheme .phis_activ2_pic2{
+        margin-left: -200px;
+        margin-top: -1000px;
+        transition: 0.5s;
+    }
+    .lightTheme .phis_activ2_pic2:hover{
+        transform: scale(1.1);
+    }
+    
+    .lightTheme .question_3{
+        margin-top: 200px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .lightTheme .hlw{
+        margin-left: 370px;
+        padding-top: 105px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #242323;
+    }
+    .lightTheme .answer_3{
+        margin-left: 280px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #454141;
+    }
+    .lightTheme .quote1{
+        font-weight: 600;
+        font-size: 19px;
+        color: #c4c407;
+    }
+    .lightTheme .quote2{
+        font-weight: 600;
+        font-size: 19px;
+        color: red;
+    }
+    
+    
+    /* footer */
+    
+    .lightTheme footer{
+        width: 101%;
+        height: 20%;
+        margin-left: -10px;
+        background-color: #1d1b1b;
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    .lightTheme .footerLinks{
+        display: flex;
+    }
+    
+    .lightTheme .footerCol{
+        width:calc( ( 100% - 40px ) / 3 );
+        margin: 30px 20px;
+        margin-bottom: 70px;
+        color: #ffffff;
+    }
+    
+    .lightTheme .links{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .lightTheme .contacts{
+        padding-left: 1515%;
+        font-size: 30px;
+    }
+    
+    .lightTheme .a_1{
+        text-decoration: none;
+        color: #2dda3c;
+        font-size: 25px;
+        padding-top: 55px;
+    }
+    
+    .lightTheme .img_cts{
+        transition: 0.2s;
+    }
+    
+    .lightTheme .img_cts:hover{
+        transform: scale(1.3);
+    }
+    
+    .lightTheme .footerCopyright{
+        background-color: #2192FF;
+    }
+    
+    .lightTheme .copyright{
+        color: black;
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    
+    .lightTheme .cntsBW{
+        padding-left: 1585%;
+    }
+
+
+
+
+
+
+
+
+        /* dark theme */
+
+    .darkTheme body{
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+        background-color: #0c0b0b;
+    }
+    .darkTheme header { /* шапка на фоне главного экрана */
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background-color: #15501c;
+    }
+    
+    .darkTheme .container{
+        padding: 15px 50px;
+    }
+    .darkTheme .header_in{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .darkTheme .menu_block{
+        color: #2192FF;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 5px;
+        margin-top: 50px;
+        margin-left: 100px;
+        transition: 0.1s;
+    }
+    .darkTheme .menu_block:hover{
+        background-color: #103c63;
+        color: #15501c;
+    }
+    
+    .darkTheme .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 11px;
+        margin-left: 50px;
+        transition: 0.2s;
+    }
+    .darkTheme .logo:hover{
+        transform: scale(1.3);
+    }
+    
+    .darkTheme .slogan{
+        font-size: 80px;
+        padding-top: 16px;
+        padding-left: 250px;
+        color: #2192FF;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    
+    /* main */
+    
+    .darkTheme main{
+        width: 101%;
+        height: 270vh;
+        margin-left: -10px;
+        background-size: cover;
+        padding-top: 30vh;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #0c0b0b;
+    }
+    
+    .darkTheme .themeButton{
+        color: #22356F;
+        border-radius: 0;
+        margin: 0 10px;
+        margin-top: 30px;
+        margin-left: 1700px;
+        width: 90px;
+        height: 20px;
+        border: 0;
+        outline: none;
+        background-color: #2192FF;
+    }
+    
+    .darkTheme .question_1{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .darkTheme .answer_1{
+        margin-left: 150px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #a8a1a1;
+    }
+    .darkTheme .pa{
+        margin-left: 70px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #6e6a6a;
+    }
+    
+    .darkTheme .question_2{
+        margin-top: 200px;
+        padding-left: 500px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .darkTheme .we{
+        margin-left: 370px;
+        padding-top: 105px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #6e6a6a;
+    }
+    .darkTheme .mainTxt{
+        margin-left: 500px;
+        font-size: 19px;
+    }
+    .darkTheme .exersizes{
+        margin-left: 500px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #a8a1a1;
+    }
+    
+    .darkTheme .phis_activ_pic{
+        width: 800px;
+        height: 400px;
+        margin-top: -100px;
+        margin-left: 1000px;
+        transition: 0.5s;
+    }
+    .darkTheme .phis_activ_pic:hover{
+        transform: scale(1.1);
+    }
+    
+    .darkTheme .phis_activ2_pic2{
+        margin-left: -200px;
+        margin-top: -1000px;
+        transition: 0.5s;
+    }
+    .darkTheme .phis_activ2_pic2:hover{
+        transform: scale(1.1);
+    }
+    
+    .darkTheme .question_3{
+        margin-top: 200px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .darkTheme .hlw{
+        margin-left: 370px;
+        padding-top: 105px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #6e6a6a;
+    }
+    .darkTheme .answer_3{
+        margin-left: 280px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #a8a1a1;
+    }
+    .darkTheme .quote1{
+        font-weight: 600;
+        font-size: 19px;
+        color: #9c9c0d;
+    }
+    .darkTheme .quote2{
+        font-weight: 600;
+        font-size: 19px;
+        color: rgb(214, 7, 7);
+    }
+    
+    
+    /* footer */
+    
+    .darkTheme footer{
+        width: 101%;
+        height: 20%;
+        margin-left: -10px;
+        background-color: #1d1b1b;
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    .darkTheme .footerLinks{
+        display: flex;
+    }
+    
+    .darkTheme .footerCol{
+        width:calc( ( 100% - 40px ) / 3 );
+        margin: 30px 20px;
+        margin-bottom: 70px;
+        color: #ffffff;
+    }
+    
+    .darkTheme .links{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .darkTheme .contacts{
+        padding-left: 1515%;
+        font-size: 30px;
+    }
+    
+    .darkTheme .a_1{
+        text-decoration: none;
+        color: #2dda3c;
+        font-size: 25px;
+        padding-top: 55px;
+    }
+    
+    .darkTheme .img_cts{
+        transition: 0.2s;
+    }
+    
+    .darkTheme .img_cts:hover{
+        transform: scale(1.3);
+    }
+    
+    .darkTheme .footerCopyright{
+        background-color: #2192FF;
+    }
+    
+    .darkTheme .copyright{
+        color: black;
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    
+    .darkTheme .cntsBW{
+        padding-left: 1585%;
+    }

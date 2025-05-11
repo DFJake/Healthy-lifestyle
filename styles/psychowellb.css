@@ -149,7 +149,7 @@ header { /* шапка на фоне главного экрана */
 
 main{
   width: 101%;
-  height: 200vh;
+  height: 350vh;
   margin-left: -10px;
   background-size: cover;
   padding-top: 30vh;
@@ -173,7 +173,7 @@ main{
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
-.whm{
+.wips{
   margin-left: 70px;
   font-size: 40px;
   font-weight: 800;
@@ -186,18 +186,61 @@ main{
   color: #454141;
 }
 
-.doc_picture{
+.answer_2{
+  margin-left: 150px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #454141;
+}
+
+.wvpssm{
+    margin-left: 70px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #242323;
+}
+
+.psycho_wellb_pic{
     margin-left: 600px;
-    width: 1000px;
-    height: 692px;
+    width: 711px;
+    height: 400px;
     margin-top: 200px;
     font-size: 40px;
     font-weight: 600;
     transition: 0.5s;
 }
-.doc_picture:hover{
+.psycho_wellb_pic:hover{
     transform: scale(1.1);
 }
+
+.trygdpsycho{
+    margin-left: 50%;
+    font-size: 19px;
+}
+
+.ussr{
+    margin-left: 50%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454141;
+}
+
+.semka_pic{
+    margin-left: 12%;
+    margin-top: -200px;
+    transition: 0.5s;
+}
+.semka_pic:hover{
+    transform: scale(1.1);
+}
+
+.ad_picture{
+  margin-left: 60%;
+  margin-top: 200px;
+  width: 551px;
+  height: 310px;
+}
+
 
 
 
@@ -343,7 +386,7 @@ footer{
       
       .lightTheme main{
         width: 101%;
-        height: 200vh;
+        height: 350vh;
         margin-left: -10px;
         background-size: cover;
         padding-top: 30vh;
@@ -367,7 +410,7 @@ footer{
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
       }
-      .lightTheme .whm{
+      .lightTheme .wips{
         margin-left: 70px;
         font-size: 40px;
         font-weight: 800;
@@ -380,18 +423,61 @@ footer{
         color: #454141;
       }
       
-      .lightTheme .doc_picture{
+      .lightTheme .answer_2{
+        margin-left: 150px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #454141;
+      }
+      
+      .lightTheme .wvpssm{
+          margin-left: 70px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #242323;
+      }
+      
+      .lightTheme .psycho_wellb_pic{
           margin-left: 600px;
-          width: 1000px;
-          height: 692px;
+          width: 711px;
+          height: 400px;
           margin-top: 200px;
           font-size: 40px;
           font-weight: 600;
           transition: 0.5s;
       }
-      .lightTheme .doc_picture:hover{
+      .lightTheme .psycho_wellb_pic:hover{
           transform: scale(1.1);
       }
+      
+      .lightTheme .trygdpsycho{
+          margin-left: 50%;
+          font-size: 19px;
+      }
+      
+      .lightTheme .ussr{
+          margin-left: 50%;
+          font-size: 18px;
+          font-family: 'Montserrat', sans-serif;
+          color: #454141;
+      }
+      
+      .lightTheme .semka_pic{
+          margin-left: 12%;
+          margin-top: -200px;
+          transition: 0.5s;
+      }
+      .lightTheme .semka_pic:hover{
+          transform: scale(1.1);
+      }
+      
+      .lightTheme .ad_picture{
+        margin-left: 60%;
+        margin-top: 200px;
+        width: 551px;
+        height: 310px;
+      }
+      
       
       
       
@@ -457,6 +543,7 @@ footer{
       .lightTheme .cntsBW{
         padding-left: 1585%;
       }
+
 
 
 
@@ -536,7 +623,7 @@ footer{
       
       .darkTheme main{
         width: 101%;
-        height: 200vh;
+        height: 350vh;
         margin-left: -10px;
         background-size: cover;
         padding-top: 30vh;
@@ -561,7 +648,7 @@ footer{
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
       }
-      .darkTheme .whm{
+      .darkTheme .wips{
         margin-left: 70px;
         font-size: 40px;
         font-weight: 800;
@@ -574,18 +661,62 @@ footer{
         color: #a8a1a1;
       }
       
-      .darkTheme .doc_picture{
+      .darkTheme .answer_2{
+        margin-left: 150px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: #a8a1a1;
+      }
+      
+      .darkTheme .wvpssm{
+          margin-left: 70px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #6e6a6a;
+      }
+      
+      .darkTheme .psycho_wellb_pic{
           margin-left: 600px;
-          width: 1000px;
-          height: 692px;
+          width: 711px;
+          height: 400px;
           margin-top: 200px;
           font-size: 40px;
           font-weight: 600;
           transition: 0.5s;
       }
-      .darkTheme .doc_picture:hover{
+      .darkTheme .psycho_wellb_pic:hover{
           transform: scale(1.1);
       }
+      
+      .darkTheme .trygdpsycho{
+          margin-left: 50%;
+          font-size: 19px;
+          color: #6e6a6a;
+      }
+      
+      .darkTheme .ussr{
+          margin-left: 50%;
+          font-size: 18px;
+          font-family: 'Montserrat', sans-serif;
+          color: #a8a1a1;
+      }
+      
+      .darkTheme .semka_pic{
+          margin-left: 12%;
+          margin-top: -200px;
+          transition: 0.5s;
+      }
+      .darkTheme .semka_pic:hover{
+          transform: scale(1.1);
+      }
+      
+      .darkTheme .ad_picture{
+        margin-left: 60%;
+        margin-top: 200px;
+        width: 551px;
+        height: 310px;
+      }
+      
       
       
       
